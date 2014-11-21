@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<project name="o3erp-plugin-jbool" default="all">
+	<target name="all" depends="clean,init,compile,zip" />
+	<target name="init">
+		<mkdir dir="classes" />
+	</target>
+	<path id="jars">
+		<fileset dir="lib" includes="**/*.jar"/>
+		<fileset dir="libref" includes="**/*.jar"/>
+	</path>
+	<target name="compile">
+		<javac destdir="classes" debug="on" srcdir="src" classpathref="jars">
+		</javac>
+		<copy file="MANIFEST.MF" tofile="classes/META-INF/MANIFEST.MF"/>
+	</target>
+	<target name="zip">
+		<zip destfile="out/${ant.project.name}.zip"
+	       basedir="."
+	       includes="lib/**, classes/**" />
+	</target>
+	<target name="clean">
+		<delete dir="out" />
+	</target>
+</project>
