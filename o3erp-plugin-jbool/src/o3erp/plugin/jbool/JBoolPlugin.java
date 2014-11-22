@@ -1,9 +1,9 @@
-package o3erp.plugin.extension.jbool;
+package o3erp.plugin.jbool;
 
 import java.util.Map;
 import java.util.Set;
 
-import o3erp.plugin.extension.IExpression;
+import o3erp.plugin.IExpression;
 
 import org.apache.commons.lang.StringUtils;
 
