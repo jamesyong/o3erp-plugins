@@ -8,5 +8,5 @@
 	<classpathentry kind="lib" path="lib/guava-14.0-rc3.jar"/>
 	<classpathentry kind="lib" path="libref/o3erp-plugin-api.jar"/>
 	<classpathentry kind="lib" path="libref/pf4j-0.10.0-SNAPSHOT.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="output" path="classes"/>
 </classpath>

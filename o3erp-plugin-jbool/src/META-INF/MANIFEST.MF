@@ -1,5 +1,5 @@
 Manifest-Version: 2.0
-Plugin-Class: o3erp.plugin.extension.jbool.JBoolPlugin
+Plugin-Class: o3erp.plugin.jbool.JBoolPlugin
 Plugin-Id: jbool-plugin
 Plugin-Provider: James Yong
 Plugin-Version: 0.0.1
